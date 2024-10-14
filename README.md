@@ -1,5 +1,6 @@
 # FileCopy
-This tool allows to copy threaded with verbose output. 
+This tool allows to copy threaded with verbose output (Both optional).  
+Linux/MacOS  
 
 ## Installation
 compile the .c file with your prefered compiler (gcc cpo.c -o cpo).  
