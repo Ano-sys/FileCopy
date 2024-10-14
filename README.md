@@ -6,14 +6,14 @@ Linux/MacOS
 YOU WILL GET A DEADLOOP WHEN THE SOURCE CONTAINS THE DESTINATION  
 
 ## Installation
-compile the .c file with your prefered compiler (gcc cpo.c -o cpo).  
-Probably move the file into your binary path, to make it globaly available. (/usr/local/bin)  
+compile the .c file with your prefered compiler (`gcc cpo.c -o cpo`).  
+Probably move the file into your binary path, to make it globaly available. (`/usr/local/bin`)  
 
 ## Usage
-run ./cpo {OPTIONS} [SOURCE] [DESTINATION]
+run `./cpo {OPTIONS} [SOURCE] [DESTINATION]`
 You are allowed to provide more than one source (max. 256)
 
 ## Parameters
-- '-r' for recurive copy
-- '-v' for verbose output
-- '-mt [INTEGER]' for threaded copy with [INTEGER] threads
+- `-r` for recurive copy
+- `-v` for verbose output
+- `-mt [INTEGER]` for threaded copy with [INTEGER] threads
