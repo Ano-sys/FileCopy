@@ -270,7 +270,12 @@ void copy(){
     long file_count = 0;
     char **iterator = SOURCES;
     while(*iterator){
-        file_count += count_files(*iterator);
+        if(FLAG_RECURSIVE){
+            file_count += count_files(*iterator);
+        }
+        else{
+            file_count++;
+        }
         iterator++;
     }
 
