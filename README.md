@@ -1,13 +1,10 @@
 # FileCopy
-This tool allows to copy threaded with verbose output (Both optional).  
-Linux/MacOS  
-
-## WARNING
-YOU WILL GET A DEADLOOP WHEN THE SOURCE CONTAINS THE DESTINATION  
+This tool allows to copy threaded with verbose output (Both optional).
+Linux/MacOS
 
 ## Installation
-compile the .c file with your prefered compiler (`gcc cpo.c -o cpo`).  
-Probably move the file into your binary path, to make it globaly available. (`/usr/local/bin`)  
+compile the .c file with your prefered compiler (`gcc cpo.c -o cpo`).
+Probably move the file into your binary path, to make it globaly available. (`/usr/local/bin`)
 
 ## Usage
 run `./cpo {OPTIONS} [SOURCE] [DESTINATION]`
