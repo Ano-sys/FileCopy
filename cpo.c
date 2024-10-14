@@ -167,6 +167,10 @@ void *copy_file(void *arg){
 }
 
 long count_files(const char *directory){
+    if(strstr(directory, DESTINATION)){
+        printf("Destination Path is in the Source path! SKIPPING!\n");
+        return 0;
+    }
     struct dirent *entry;
     struct stat file_stat;
     DIR *dir = opendir(directory);
@@ -198,6 +202,10 @@ long count_files(const char *directory){
 }
 
 void handleSource(const char *directory_abs, const char *top_dir){
+    if(strstr(directory_abs, DESTINATION)){
+        printf("Destination Path is in the Source path! SKIPPING!\n");
+        return;
+    }
     struct dirent *entry;
     struct stat file_stat;
     DIR *dir = opendir(directory_abs);
@@ -396,8 +404,6 @@ int main(int argc, char **argv){
 
     // start the copy program with all things set up
     copy();
-
-    // wait on threads and finish program
 
     free_sources();
     free(DESTINATION);
