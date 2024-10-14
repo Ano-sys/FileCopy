@@ -2,12 +2,15 @@
 This tool allows to copy threaded with verbose output (Both optional).  
 Linux/MacOS  
 
+## WARNING
+YOU WILL GET A DEADLOOP WHEN THE SOURCE CONTAINS THE DESTINATION  
+
 ## Installation
 compile the .c file with your prefered compiler (gcc cpo.c -o cpo).  
-Probably move the file into your binary path, to make it globaly available.  
+Probably move the file into your binary path, to make it globaly available. (/usr/local/bin)  
 
 ## Usage
-run ./cpo [SOURCE] [DESTINATION]
+run ./cpo {OPTIONS} [SOURCE] [DESTINATION]
 You are allowed to provide more than one source (max. 256)
 
 ## Parameters
