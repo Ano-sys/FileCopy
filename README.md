@@ -1,5 +1,6 @@
 # FileCopy
-Linux/MacOS
+For Linux/MacOS  
+  
 This tool allows to copy threaded with verbose output (Both optional).  
 This tool aims to clone the same native usage of the build-in cp command, but makes it faster ( if threaded ) and clearer, easier to track the output ( if verbose )!  
 Also a thing that bothered me was that if the destination directory does not exist, cp would tell you that, cpo will just create this on its own.  
