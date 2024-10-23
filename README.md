@@ -19,4 +19,4 @@ You are allowed to provide more than one source (max. 256)
 ## Parameters
 - `-r` for recurive copy
 - `-v` for verbose output
-- `-mt [INTEGER]` for threaded copy with [INTEGER] threads
+- `-mt [INTEGER]` for threaded copy with [INTEGER] threads (Warning: User has full previleges to bombard his machine with threads)
