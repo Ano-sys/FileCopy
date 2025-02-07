@@ -17,6 +17,6 @@ run `./cpo {OPTIONS} [SOURCE] [DESTINATION]`
 You are allowed to provide more than one source (max. 256)
 
 ## Parameters
-- `-r` for recurive copy
+- `-r` for recursive copy
 - `-v` for verbose output
 - `-mt [INTEGER]` for threaded copy with [INTEGER] threads (Warning: User has full previleges to bombard his machine with threads)
